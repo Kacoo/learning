@@ -1,0 +1,7 @@
+最近写数据库说明书文档，需要将涉及用的所有数据库对象导出。网上看到可以用软件powerDesigner连接Oracle数据库通过逆向工程导出。于是迫不及待地开始了踩坑之旅。
+下载powerDesigner。
+网上搜了好几篇文章，这一篇是内容介绍比较详细的。
+https://blog.csdn.net/zhengxiangwen/article/details/46008657
+
+至于为什么连不上，还在探索中。
+https://blog.csdn.net/terry7/article/details/51361742
