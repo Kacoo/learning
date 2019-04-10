@@ -61,6 +61,39 @@ Promise是一个带有then()函数的对象，是一个接口。
 
 ## ngResource是个啥？
 
+## $location服务
+是对所有浏览器中都存在的window.location对象的封装。  
+何时需要？1-需要对URL的变化做出相应的情况；2-需要针对浏览器当前的URL触发一次change事件的情况。    
+$location.path('path')  
+$location.url()  
+$location.absUrl()  
+$location.hash()  
+$location.host()  
+$location.protocol()  
+$location.search()  
+
+## $apply
+
+## AngularJS Module
+1. __config(configFn)__  
+利用该方法可以做一些注册工作，这些工作需要在模块加载时完成。
+2. __constant(name, object)__  
+此方法会首先运行，可以用来声明整个应用范围内的常量，并且让它们在所有配置和实例方法中可用
+3. __controller(name, constructor)__  
+控制器
+4. __directive(name, directiveFactory)__  
+指令  
+5. __filter(name, filterFactory)__  
+6. __run(initializationFn)__  
+7. __value(name, object)__  
+8. __service(name, serviceFactory)__  
+9. __factory(name, factoryFn)__  
+10. __provider(name, providerFn)__  
+
+## 在浏览器测试service方法
+	var a = $h.ng.service('ServiceName');
+		a.functionName();
+
 ## 使用Service暂存数据-hcx
     .factory('hcxService', function() {
         // 比如说，你想暂存一个变量，那可以这么写

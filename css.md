@@ -80,6 +80,7 @@ none
 block  
 inline  
 list-item  
+inline-block  
 ……  
 
 2. rel 关系，relation    
