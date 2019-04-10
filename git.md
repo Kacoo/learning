@@ -1,4 +1,6 @@
-## [Git简易指南](http://www.bootcss.com/p/git-guide/)
+## Git简易指南
+[指南1](http://www.bootcss.com/p/git-guide/)  
+[指南2](http://blog.jobbole.com/53573/)
 
 ### 安装
 略
@@ -12,7 +14,7 @@
 2. 克隆远程服务器仓库`git clone username@host:/path/to/repository`或者`git clone path`
 
 ### 将已有仓库连接到某个远程服务器
-`git remote add origin <server>`
+`git remote add origin https://your_username@bitbucket.org/your_username/repository.git`
 
 ### 添加与提交
 1. 将改动添加到缓存区：`git add <filename>`或者`git add *`
@@ -20,4 +22,14 @@
 3. 将改动提交到远端仓库：`git push origin master`(其中，master可以换成任何分支)
 
 ### 更新本地仓库
-`git pull`
+`git pull origin master`
+
+### 询问状态
+`git status`
+
+### 分支操作
+#### 创建分支
+`git checkout -b new_feature`
+
+#### 查看当前项目下的所有分支
+`git branch`
