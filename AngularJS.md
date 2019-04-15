@@ -76,7 +76,7 @@ $location.search()
 
 ## AngularJS Module
 1. __config(configFn)__  
-利用该方法可以做一些注册工作，这些工作需要在模块加载时完成。
+利用该方法可以做一些注册工作，这些工作需要在模块加载时完成
 2. __constant(name, object)__  
 此方法会首先运行，可以用来声明整个应用范围内的常量，并且让它们在所有配置和实例方法中可用
 3. __controller(name, constructor)__  
@@ -84,11 +84,24 @@ $location.search()
 4. __directive(name, directiveFactory)__  
 指令  
 5. __filter(name, filterFactory)__  
+过滤器
 6. __run(initializationFn)__  
+如果你想要在注射器启动之后执行某些操作，而这些操作需要在页面对用户可用之前执行，可以使用此方法
 7. __value(name, object)__  
+8. 允许在整个应用中注射值
 8. __service(name, serviceFactory)__  
 9. __factory(name, factoryFn)__  
 10. __provider(name, providerFn)__  
+
+## 在不同作用域之间交互
+每个Angular应用或者ng-app只有一个主作用域$rootScope，其他所有作用域都会继承这个主作用域。  
+通常情况下，作用域之间不会共享变量，并且互相之间不会基于原型继承。  
+
+1. __$on__  
+
+2. __$emit__  
+
+3. __$broadcast__  
 
 ## 在浏览器测试service方法
 	var a = $h.ng.service('ServiceName');
