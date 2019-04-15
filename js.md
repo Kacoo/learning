@@ -36,4 +36,4 @@ DOM遍历和范围（DOM Traversal and Range）：定义了遍历和操作文档
 （8） 对cookies的支持  
 （9） 像XMLHttpRequest和IE的ActiveXObject这样的自定义对象  
 8. MIME类型：编写代码使用的脚本语言的内容类型。  
-9. 
+9. __函数柯里化currying__

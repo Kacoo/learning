@@ -103,6 +103,9 @@ $location.search()
 
 3. __$broadcast__  
 
+## 强制注入
+`$injector.get()`
+
 ## 在浏览器测试service方法
 	var a = $h.ng.service('ServiceName');
 		a.functionName();
