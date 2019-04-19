@@ -44,3 +44,10 @@ __问题：__该方法依赖console模块下的`$menuController`，`$menuControl
 (2) 逻辑上来说，登录页跟里面的主体单页应用，是不是一套东东)  
 #### (8) menu.json  
 定义了后台菜单的列表，包括菜单名称、菜单ID、对应权限ID、扩展参数（一般是查询条件预置）
+
+### 2. appointment
+####（1）console.appointment.js
+预约类业务逻辑  
+1. 定义模块路径，模块名及其依赖模块  
+2. 定义个性化路由常量，页面初始化时统一在app.js加载（state是写代码的时候用来跳转的，url是显示在浏览器地址栏的，templateUrl是真实的文件路径地址）  
+3.  $scope.ajaxOption()，在h.ng.js中定义
