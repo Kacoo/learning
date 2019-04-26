@@ -37,7 +37,9 @@ DOM遍历和范围（DOM Traversal and Range）：定义了遍历和操作文档
 （9） 像XMLHttpRequest和IE的ActiveXObject这样的自定义对象  
 8. MIME类型：编写代码使用的脚本语言的内容类型。  
 9. __函数柯里化currying__
-10. 
+10. 使用setTimeout
                 setTimeout(function () { 
                     // expressions
                 }, 0);
+11. 数据操作 foreach()/map()/filter()
+12. 在使用字面量表示法时，不会调用相应的构造函数。
