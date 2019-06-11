@@ -72,7 +72,15 @@ __属性选择器__
 
 __后代选择器__  
 
-__伪类和伪元素__  
+__伪类和伪元素__ 
+
+### 6. DOM节点宽高度
+参考：[JavaScript中的各种宽高以及位置总结](https://segmentfault.com/a/1190000002545307)  
+1. __只读属性__  
+clientWidth & clientHeight: 指可视部分的宽高，padding + content
+offsetWidth & offsetHeight: 指元素的border + padding + content的宽度和高度  
+2. __读写属性__
+ 
 
 ### ?. 属性
 1. display  
@@ -96,5 +104,7 @@ all 用于所有表现媒体
 aural 用于语音合成器、屏幕阅读器和文档的其他声音表现  
 braille  用Braille设备表现文档时使用   
 print 为视力正常的用户打印文档时使用，另外还会在显示文档的“打印预览”时使用  
-screen 在屏幕媒体（如桌面计算机监视器）中表现文档时使用。在这种系统上运行的所有Web浏览器都是屏幕媒体用户代理  
+screen 在屏幕媒体（如桌面计算机监视器）中表现文档时使用。在这种系统上运行的所有Web浏览器都是屏幕媒体用户代理
+
+  
 

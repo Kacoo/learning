@@ -6,7 +6,7 @@
 其他宿主环境包括Node（一种服务端JacaScript平台）、Adobe Flash。  
 3. ECMAScript包括7部分：  
 （1） 语法  
-（2） 类型  
+（2） 类型：基本（简单）数据类型（5+1种，Undefined/Null/Boolean/Number/String/(ES6)Symbol），复杂数据类型（Object）  
 （3） 语句  
 （4） 关键字  
 （5） 保留字  
