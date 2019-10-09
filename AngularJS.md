@@ -88,7 +88,7 @@ $location.search()
 6. __run(initializationFn)__  
 如果你想要在注射器启动之后执行某些操作，而这些操作需要在页面对用户可用之前执行，可以使用此方法
 7. __value(name, object)__  
-8. 允许在整个应用中注射值
+允许在整个应用中注射值
 8. __service(name, serviceFactory)__  
 9. __factory(name, factoryFn)__  
 10. __provider(name, providerFn)__  
